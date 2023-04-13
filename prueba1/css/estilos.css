@@ -1,0 +1,62 @@
+*{
+    margin:0px ;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3em;
+}
+
+p {margin-bottom: 1.6em;}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* --- HEADER ---- */
+
+.header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listaNav{
+    display: flex;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 0.5rem;
+}
+
+
+
+/* ---- MAIN ---- */
+.cards{
+    display:flex;
+    padding-left:3px;
+    padding-right:3px;
+}
+/*
+.fondo1{
+    background-image: url(../img/fondo1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 75%;
+}*/
+
+
+.mainFooter{
+    background-image: url(../img/fondo_cielo.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* --- FOOTER --- */

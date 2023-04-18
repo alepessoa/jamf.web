@@ -8,13 +8,20 @@
 p {margin-bottom: 1.6em;}
 
 .container{
-    width: 85%;
-    max-width: 850px;
+    width: 95%;
+    max-width: 1200px;
     margin: 0 auto;
+    margin-top: 1rem;
 }
 
 /* --- HEADER ---- */
 
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
 .header div{
     display: flex;
     justify-content: space-between;
@@ -38,10 +45,28 @@ p {margin-bottom: 1.6em;}
 
 
 /* ---- MAIN ---- */
+.main{
+    padding-top: 6rem;
+}
 .cards{
     display:flex;
     padding-left:3px;
     padding-right:3px;
+    text-align: center;
+}
+
+.cards div{
+}
+
+.mainFooter{
+    background-image: url(../img/fondo_cielo.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.cardsNoticias{
+    display:flex;
 }
 /*
 .fondo1{
@@ -51,12 +76,5 @@ p {margin-bottom: 1.6em;}
     opacity: 75%;
 }*/
 
-
-.mainFooter{
-    background-image: url(../img/fondo_cielo.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
 
 /* --- FOOTER --- */
